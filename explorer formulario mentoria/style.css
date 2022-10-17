@@ -156,20 +156,72 @@ fieldset legend {
 }
 
 .firstdate > div:nth-child(1) {
-  width: 100%;
+  width: 250%;
  }
 
 
-/*
+
  .seconddate {
   
   display: flex;
-  gap: 22px;
+  gap: 32px;
   
 }
 
 .seconddate > div:nth-child(1) {
-  width: 100%;
+  width: 250%;
 }
 
-*/
+
+
+#label1, #label2 {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #535971;
+
+}
+
+footer {
+  background: #535971;
+
+  border-radius: 0px 0px 20px 20px;
+
+  height: 160px;
+
+  margin-bottom: 360px;
+
+  padding: 52px 70px;
+
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+
+}
+
+
+footer .button {
+  background: #FF5374;
+
+  border-radius: 20px;
+
+  height: 56px;
+
+  border: none;
+
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+footer .button:hover {
+  background: #bb3c55;
+}
